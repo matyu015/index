@@ -1,0 +1,86 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+ 
+   
+     background-image: url(vintage.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+h1, h6, u{
+    margin-left: 10px;
+    color: rgb(34, 34, 34);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+ul li {
+    margin-right: 20px;
+    font-family: "Copperplate","Papyrus", fantasy;
+    font-size:x -large;
+}
+map{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.philippine-map {
+    width: 100%;
+    height: auto;
+}
+
+
+.slide1, .slide2, .slide3 {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+}

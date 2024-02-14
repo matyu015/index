@@ -1,0 +1,84 @@
+body{
+    background-image: url(maria-falls.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .logo {
+    width: 60px;
+    height: auto;
+    margin: 0 auto; 
+    display: block;
+}
+.custom-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto; 
+    cursor: pointer;
+    border-radius: 8px;
+}
+.custom-button:hover{
+    background-color: #45a049; 
+}
+
+ .container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .card{
+     background-color: rgb(194, 194, 194);
+     width: 300px;
+     margin: 20px;
+     border-radius: 10px;
+ }
+ .card-image {
+     height: 150px;
+     margin-bottom: 15px;
+     background-size: cover;
+     border-radius: 15px 15px 0 0;
+ }
+ .vis-1 {
+     background-image:url(hinatuan-river.jpg) ; 
+     background-size: cover;  
+     background-position: center;
+ }
+ .vis-2 {
+     background-image: url(bone.jpg);
+     background-position: center;
+ }
+ .vis-3 {
+     background-image: url(monfort.jpg);
+ }
+
+ .card h2{
+     padding: 10px;
+ }
+
+ .card p{
+    padding: 10px;
+ }
+ .card a{
+     background-color: black;
+     color: aliceblue;
+     padding: 15px 20px;
+     display: block;
+     text-align: center;
+     margin: 20px 50px;
+     text-decoration: none;
+ }
+
+ .card:hover {
+     background-color:rgb(62,62,62);
+     color: white;
+     cursor: pointer;
+     transform: scale(1.03);
+     transition: all 1s ease;
+ }
